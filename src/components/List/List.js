@@ -44,7 +44,6 @@ class List extends React.Component {
     return (
       <section className={styles.component}>
         <Hero titleText={this.props.title} imgSrc={this.props.imgSrc} />
-        <b>{this.props.aneta}</b>
         <div className={styles.description}>
           {ReactHtmlParser(this.props.description)}
         </div>
