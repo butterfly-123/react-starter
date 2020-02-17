@@ -15,7 +15,7 @@ class List extends React.Component {
   }
 
   static defaultProps = {
-    description: settings.defaultListDescription,
+    children: <p>I can do all the things!!!</p>,
   }
   
   render() {
@@ -24,7 +24,7 @@ class List extends React.Component {
         <Hero titleText={this.props.title} imgSrc={this.props.imgSrc} />
         <b>{this.props.aneta}</b>
         <div className={styles.description}>
-          {this.props.description}
+          {this.props.children}
         </div>
         <div className={styles.columns}>
           <Column title={'Animals'} />
