@@ -41,10 +41,11 @@ class Column extends React.Component {
   render() {
     return (
       <section className={styles.component}>
-        <h3 className={styles.title}>{this.props.title}</h3>
+        <h3 className={styles.title}>{this.props.title} 
         <span className={styles.icon}>
             <Icon name={this.props.icon}/>
         </span>
+        </h3>
         <div>
           {this.state.cards.map(({key, ...cardsProps}) => (
             <Card key={key} {...cardsProps} />
