@@ -12,10 +12,8 @@ class Column extends React.Component {
 
   static propTypes = {
     title : PropTypes.node.isRequired,
-  }
-
-  static defaultProps = {
-    icon: settings.defaultColumnIcon,
+    cards: PropTypes.node.isRequired,
+    icon:  PropTypes.node.isRequired,
   }
 
   state = {
