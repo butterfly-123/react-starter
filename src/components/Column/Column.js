@@ -41,16 +41,15 @@ class Column extends React.Component {
   */
   
   render() {
-    const {title, icon} = this.props;
+    const {title, icon} = title;
 
     return (
       <section className={styles.component}>
-        <h3 className={styles.title}>{this.props.title} 
+        <h3 className={styles.title}>{title} 
           <span className={styles.icon}> 
-            <Icon name={this.props.icon}/>
+            <Icon name={icon}/>
           </span>
         </h3>
-
         {/*
           <div>
             {this.state.cards.map(({key, ...cardsProps}) => (
