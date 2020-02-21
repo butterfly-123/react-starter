@@ -5,7 +5,7 @@ import createActionAddColumn from '../../redux/columnsRedux';
 
 
 const mapStateToProps = (state, props) => ({
-  columns: getColumnsForList(state, props.id),
+  columns: getColumnsForList(state.columns, props.id),
 });
 
 const mapDispatchToProps = (dispatch, props) => ({
