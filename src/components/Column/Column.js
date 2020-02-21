@@ -41,7 +41,7 @@ class Column extends React.Component {
   */
   
   render() {
-    const {title, icon} = title;
+    const {title, icon} = this.props;
 
     return (
       <section className={styles.component}>
