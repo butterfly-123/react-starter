@@ -7,7 +7,7 @@ const Card = (props) => {
   
   return (
     <section className={styles.component}>
-      <h3>{title + 'Aneta'}</h3>
+      <h3>{title}</h3>
     </section>
   );
 };
