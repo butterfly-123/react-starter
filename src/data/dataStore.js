@@ -148,4 +148,6 @@ const initialStoreData = {
   cards: [...cards],
 };
 
+console.log(initialStoreData);
+
 export default initialStoreData;
