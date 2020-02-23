@@ -6,7 +6,7 @@ import {
 } from '../../redux/columnsRedux';
 
 const mapStateToProps = (state, props) => ({
-  columns: getColumnsForList(state.columns, props.id),
+  columns: getColumnsForList(state, props.listId),
 });
 
 const mapDispatchToProps = (dispatch, props) => ({
