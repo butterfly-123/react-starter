@@ -7,7 +7,7 @@ import {
   createActionChangeSearchString,
 } from '../../redux/searchStringRedux';
 
-console.log('countVisibleCards',countVisibleCards);
+console.log('countVisibleCards', countVisibleCards);
 
 const mapStateToProps = (state) => ({
   searchString: getSearchString(state),

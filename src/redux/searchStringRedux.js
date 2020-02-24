@@ -17,14 +17,14 @@ export const ADD_SEARCH = createActionName('ADD_SEARCH');
 export const createActionChangeSearchString = payload => ({ payload, type: ADD_SEARCH });
 
 // reducer
-export default function reducer(statePart = '', action = {}) {
+export default function reducer(state = '', action = {}) {
   
-  console.log('statePart', statePart);
+  console.log('searchString', state);
 
   switch (action.type) {
     case ADD_SEARCH:
       return action.payload;
     default:
-      return statePart;
+      return state;
   }
 }
