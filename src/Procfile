@@ -1,1 +1,1 @@
-http-server dist
+npm run start
