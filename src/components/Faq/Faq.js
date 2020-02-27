@@ -8,7 +8,7 @@ import ReactHtmlParser from 'react-html-parser';
 const Faq = ({titleText, imageUrl, contentText}) => (
   <Container>
  
-    <Hero titleText={titleText} imageUrl={imageUrl} />
+    <Hero titleText={titleText} image={imageUrl} />
     <p className={contentText}>{ReactHtmlParser(contentText)}</p>
  
   </Container>
