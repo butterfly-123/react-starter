@@ -7,7 +7,6 @@ import Card from '../Card/Card';
 import Icon from '../Icon/Icon';
 
 
-
 class Column extends React.Component {
 
     static propTypes = {

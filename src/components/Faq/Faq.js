@@ -1,15 +1,29 @@
 import React from 'react';
 import Container from '../Container/Container';
+import PropTypes from 'prop-types';
+import Hero from '../Hero/Hero';
 import {faqText} from '../../data/dataStore';
-import styles from './Faq.scss';
-
-
-const Faq = () => (
+import ReactHtmlParser from 'react-html-parser';
+ 
+const Faq = ({titleText, imageUrl, contentText}) => (
   <Container>
-    <h1>{faqText.title}</h1>
-    <p>{faqText.subtitle}</p>
-    <img className={styles.image}src={faqText.image}></img>
+ 
+    <Hero titleText={titleText} imageUrl={imageUrl} />
+    <p className={contentText}>{ReactHtmlParser(contentText)}</p>
+ 
   </Container>
 );
-
+ 
+Faq.propTypes = {
+  titleText: PropTypes.node.isRequired,
+  imageUrl: PropTypes.node.isRequired,
+  contentText: PropTypes.string.isRequired,
+};
+ 
+Faq.defaultProps = {
+  titleText: faqText.title,
+  imageUrl: faqText.image,
+  contentText: faqText.text,
+};
+ 
 export default Faq;

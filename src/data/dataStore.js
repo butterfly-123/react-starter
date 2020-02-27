@@ -21,7 +21,7 @@ export const infoText = {
 
 export const faqText = {
   title: 'Faq',
-  subtitle: 'He determined to drop his litigation with the monastry, and relinguish his claims to the wood-cuting and fishery rihgts at once. He was the more ready to do this becuase the rights had becom much less valuable, and he had indeed the vaguest idea where the wood and river in quedtion were.',
+  text: 'He determined to drop his litigation with the monastry, and relinguish his claims to the wood-cuting and fishery rihgts at once. He was the more ready to do this becuase the rights had becom much less valuable, and he had indeed the vaguest idea where the wood and river in quedtion were.',
   image: 'https://i.ytimg.com/vi/dpalHOZgMXY/maxresdefault.jpg',
 };
 
@@ -91,6 +91,24 @@ const lists = [
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
 ];
+
+// const listWork = [
+//   {
+//     id: 'list-2',
+//     title: 'Work <sup>soon!</sup>',
+//     description: 'Interested in a new job!',
+//     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkpyrV3Sac8lXXSilPs6BSUOeeVq8sv5x3WWSAA5YtS2RwCrHn',
+//   },
+// ];
+
+// const listGame = [
+//   {
+//     id: 'list-3',
+//     title: 'Game <sup>soon!</sup>',
+//     description: 'Fantastic game!',
+//     image: 'https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half/public/field_blog_entry_images/controller.jpg?itok=hG7Lfjz2',
+//   },
+// ];
 
 const columns = [
   {
