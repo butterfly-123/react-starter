@@ -93,24 +93,6 @@ const lists = [
   },
 ];
 
-// const listWork = [
-//   {
-//     id: 'list-2',
-//     title: 'Work <sup>soon!</sup>',
-//     description: 'Interested in a new job!',
-//     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkpyrV3Sac8lXXSilPs6BSUOeeVq8sv5x3WWSAA5YtS2RwCrHn',
-//   },
-// ];
-
-// const listGame = [
-//   {
-//     id: 'list-3',
-//     title: 'Game <sup>soon!</sup>',
-//     description: 'Fantastic game!',
-//     image: 'https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half/public/field_blog_entry_images/controller.jpg?itok=hG7Lfjz2',
-//   },
-// ];
-
 const columns = [
   {
     id: 'column-1',

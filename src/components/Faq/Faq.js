@@ -2,7 +2,7 @@ import React from 'react';
 import Container from '../Container/Container';
 import PropTypes from 'prop-types';
 import Hero from '../Hero/Hero';
-import {faqText} from '../../data/dataStore';
+import { faqText } from '../../data/dataStore';
 import ReactHtmlParser from 'react-html-parser';
  
 const Faq = ({titleText, imageUrl, contentText}) => (

@@ -5,16 +5,16 @@ import PropTypes from 'prop-types';
 import { settings } from '../../data/dataStore';
 import Icon from '../Icon/Icon';
 import Container from '../Container/Container';
-import {withRouter} from 'react-router';
+import { withRouter } from 'react-router';
 
 class Search extends React.Component {
   static propTypes = {
-    text: PropTypes.object.string,
-    searchString: PropTypes.object.string,
-    changeSearchString: PropTypes.object.func,
-    countVisible: PropTypes.object,
-    countAll: PropTypes.objectes,
-    history: PropTypes.object.node,
+    text: PropTypes.string,
+    searchString: PropTypes.string,
+    changeSearchString: PropTypes.func,
+    countVisible: PropTypes.number,
+    countAll: PropTypes.number,
+    history: PropTypes.object,
   }
 
   static defaultProps = {

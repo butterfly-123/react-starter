@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from '../Container/Container';
-import {infoText} from '../../data/dataStore';
+import { infoText } from '../../data/dataStore';
 import Hero from '../Hero/Hero';
 import PropTypes from 'prop-types';
 import ReactHtmlParser from 'react-html-parser';

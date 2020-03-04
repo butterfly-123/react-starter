@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Column.scss';
 import PropTypes from 'prop-types';
-import {settings} from '../../data/dataStore';
+import { settings } from '../../data/dataStore';
 import Creator from '../Creator/Creator';
 import Card from '../Card/Card';
 import Icon from '../Icon/Icon';
